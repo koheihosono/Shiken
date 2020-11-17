@@ -1,18 +1,14 @@
 ﻿#include <iostream>
 using namespace std;
 
-void sumEx(int& c)
+void sumEx(int a,int b,int& c)
 {
-	int a = 1;
-	int b = 2;
 	c = a + b;
 }
 
 int main()
 {
-	int plus;
+	int change;
 
-	cin >> plus;
-
-	sumEx(plus);
+	sumEx(1,2,change);
 }
